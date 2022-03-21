@@ -23,3 +23,8 @@ Git paso a paso
 5. Para hacer commit y add al mismo tiempo:
   - git commit -m "solo un commit"
   - gur commit -a -m "hace commi de todo"
+6. Para hacer el push:
+6.1 Si no tenemos enlazado el repositorio:
+  - git push url
+6.2 Si ya tenemos enlazado el git hub con el repositorio:
+  - git push
