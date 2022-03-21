@@ -1,0 +1,18 @@
+Esto es un documento de prueba.
+
+Git paso a paso
+
+1. Entro en la carpeta que quiero que se convierta en un repositorio de git.
+   Usando comandos de terminal
+2.1 Crear un repositorio de git. La carpeta se convierte en un repositorio.
+   git init
+2.2 Clonar uno que ya exista.
+   git clone "url"
+3. Para ver el estado de mi repositorio
+  git status
+  Me dice en que rama estou y si hay archivos modificados/preparados.
+  Si esta en rojo: modificado en "Unstaged Changes" sin estar preparado para realizarle un commit.
+  Si esta en verde: modificado en "Staged Changes" preparado para hacerle el commit.
+3.1 Va a estar en rojo cuando hayamos editado un archivo y lo guardamos.
+3.2 Va a estar en verde cuando:
+  git add "nombreArchivo".
